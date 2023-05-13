@@ -97,7 +97,7 @@ Resources:
       ExecutionRoleArn: !Ref TaskExecutionRole
       ContainerDefinitions:
         - Name: python-rm1-container
-          Image: 735834324414.dkr.ecr.us-east-1.amazonaws.com/pipeline-bootstrap:latest
+          Image: 735834324414.dkr.ecr.eu-central-1.amazonaws.com/pipeline-bootstrap:latest
           Essential: true
           Memory: 256
           PortMappings:
