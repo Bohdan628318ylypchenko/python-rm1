@@ -6,9 +6,14 @@ from loguru import logger
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/e1')
 def hello_world():
-    return 'Hello World! (again ;)'
+    return 'Hello World! (from endpoint 1)'
+
+
+@app.route('/e2')
+def hello_world():
+    return 'Hello World! (from endpoint 2)'
 
 
 if __name__ == '__main__':
